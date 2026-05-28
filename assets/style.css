@@ -47,6 +47,10 @@ details {
   letter-spacing: 0.02em;
 }
 
+.home-header {
+  margin-top: -60px;
+}
+
 summary {
   list-style: none;
   cursor: pointer;

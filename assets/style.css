@@ -66,6 +66,21 @@ details div {
   font-size: 20px;
 }
 
+.post-nav {
+  margin-top: 120px;
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  font-size: 15px;
+}
+
+.post-nav a {
+  color: #111;
+  text-decoration: none;
+}
+
 .footer {
   clear: both;
 

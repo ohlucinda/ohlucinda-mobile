@@ -1,16 +1,21 @@
 body {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 80px 24px;
+  margin: 0;
+  padding: 0;
 
   color: #111;
   font-size: 17px;
   font-family: system-ui, sans-serif;
 }
 
-.writes-content p {
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+main p {
   line-height: 2.2;
-  margin-bottom: 2.2em;
+  margin: 0 0 2.4em 0;
 }
 
 a {

@@ -5,10 +5,7 @@ body {
 
   color: #111;
   line-height: 2;
+  font-size: 17px;
 
   font-family: system-ui, sans-serif;
-}
-
-.writes-content {
-  white-space: pre-wrap;
 }

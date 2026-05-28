@@ -10,11 +10,11 @@ layout: default
   <summary>{{ month.name }}</summary>
 
   {% for post in month.items %}
-    <p>
+    <div>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
-    </p>
+    </div>
   {% endfor %}
 
 </details>

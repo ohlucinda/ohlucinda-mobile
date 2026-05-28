@@ -21,6 +21,7 @@ main p {
 a {
   color: #111;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -41,4 +42,32 @@ details div {
   margin-bottom: 18px;
   padding-left: 28px;
   font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-family: serif;
+  color: black;
+  width: 100%;
+  line-height: 1.6;
+  padding-bottom: 38px;
+}
+
+.touch {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.part {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.links {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.copyright {
+  font-size: 13px;
 }

@@ -84,7 +84,7 @@ details div {
 .footer {
   clear: both;
 
-  margin-top: 180px;
+  margin-top: 700px;
 
   text-align: center;
   font-family: serif;
@@ -162,19 +162,6 @@ details summary::before {
     text-align: center;
     word-break: break-word;
   }
-
-  .footer {
-  clear: both;
-
-  margin-top: 700px;
-
-  text-align: center;
-  font-family: serif;
-  color: black;
-  width: 100%;
-  line-height: 1.6;
-  padding-bottom: 38px;
-}
 
   .links {
     line-height: 2;

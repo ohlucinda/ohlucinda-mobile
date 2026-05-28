@@ -34,11 +34,28 @@ details {
 }
 
 summary {
+  list-style: none;
   cursor: pointer;
-  font-size: 24px;
 
+  font-size: 24px;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "⌵";
+  display: inline-block;
+  margin-right: 10px;
+
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(180deg);
 }
 
 details div {

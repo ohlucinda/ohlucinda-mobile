@@ -2,8 +2,11 @@
 layout: default
 ---
 
-{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+<header class="site-header">
+  Je'm | Writes
+</header>
 
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 <div class="writes-index">
 
 {% for month in posts_by_month %}

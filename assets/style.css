@@ -161,19 +161,7 @@ img {
   summary {
   font-size: 20px !important;
   text-align: center;
-　}
-  
-  details summary::before {
-    margin-right: 0;
- }
-
-  details div {
-    font-size: 16px;
-    padding-left: 0;
-
-    text-align: center;
-    word-break: break-word;
-  }
+}
 
   .links {
     line-height: 2;

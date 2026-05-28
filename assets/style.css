@@ -1,17 +1,35 @@
 body {
   max-width: 680px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 80px 24px;
 
   color: #111;
   font-size: 17px;
-  line-height: 1.9;
+  line-height: 2;
 
   font-family: system-ui, sans-serif;
 }
 
-/* pタグすべてに、上下30pxの余白を追加する */
-p {
-  margin-top: 30px;
-  margin-bottom: 30px;
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
+details {
+  margin-bottom: 24px;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+details div {
+  margin-bottom: 14px;
+  padding-left: 18px;
 }

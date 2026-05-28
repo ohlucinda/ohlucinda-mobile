@@ -84,7 +84,7 @@ details div {
 .footer {
   clear: both;
 
-  margin-top: 700px;
+  margin-top: 180px;
 
   text-align: center;
   font-family: serif;
@@ -172,5 +172,12 @@ details summary::before {
     width: 100%;
     height: auto;
   }
+}
 
+/* Mac */
+@media (min-width: 1024px) {
+
+  .footer {
+    margin-top: 700px;
+  }
 }

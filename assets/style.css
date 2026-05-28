@@ -138,6 +138,7 @@ img {
 }
 
 /* iPhone */
+/* iPhone */
 @media (max-width: 768px) {
 
   body {
@@ -149,26 +150,31 @@ img {
     padding: 40px 20px;
   }
 
+  .site-header {
+    font-size: 28px;
+    margin-bottom: 80px;
+  }
+
   details {
     text-align: center;
   }
 
   summary {
-  font-size: 26px !important;
+    font-size: 26px !important;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  gap: 4px;
+    gap: 4px;
 
-  width: 100%;
-  text-align: center;
-}
+    width: 100%;
+    text-align: center;
+  }
 
-details summary::before {
-  margin-right: 0;
-}
+  details summary::before {
+    margin-right: 0;
+  }
 
   details div {
     font-size: 16px;
@@ -187,6 +193,7 @@ details summary::before {
     width: 100%;
     height: auto;
   }
+
 }
 
 /* Mac */

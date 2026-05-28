@@ -151,8 +151,8 @@ img {
   }
 
   .site-header {
-    font-size: 28px;
-    margin-bottom: 80px;
+    font-size: 24px;
+    margin-bottom: 48px;
   }
 
   details {
@@ -160,7 +160,7 @@ img {
   }
 
   summary {
-    font-size: 26px !important;
+    font-size: 20px !important;
 
     display: flex;
     justify-content: center;

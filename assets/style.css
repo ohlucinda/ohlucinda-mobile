@@ -31,7 +31,9 @@ details {
 
 summary {
   cursor: pointer;
-  font-size: 28px;
+  font-size: 24px;
+
+  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
 

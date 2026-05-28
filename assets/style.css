@@ -8,3 +8,7 @@ body {
 
   font-family: system-ui, sans-serif;
 }
+
+p {
+  margin: 0 0 2em 0;
+}

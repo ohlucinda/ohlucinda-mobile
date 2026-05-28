@@ -11,9 +11,11 @@ main {
   max-width: 680px;
   margin: 0 auto;
   padding: 80px 24px;
+}
 
-  white-space: pre-wrap;
+main p {
   line-height: 2.2;
+  margin: 0 0 40px 0;
 }
 
 a {
@@ -68,4 +70,4 @@ details div {
 
 .copyright {
   font-size: 13px;
-}}
+}

@@ -8,12 +8,12 @@ layout: default
 
 {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 
-{% for month in posts_by_month %}
+{% for month in posts_by_month reversed %}
 
 <details>
   <summary>{{ month.name }}</summary>
 
-  {% for post in month.items %}
+  {% for post in month.items reversed %}
     <div>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}

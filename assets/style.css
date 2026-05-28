@@ -73,42 +73,41 @@ details div {
 }
 
 img {
-
   width: 100%;
-
   height: auto;
 
   display: block;
-
   margin: 60px 0;
-
 }
 
+/* iPhone */
 @media (max-width: 768px) {
 
   summary {
-
     font-size: 24px;
-
   }
 
   details div {
-  text-align: center;
-  padding-left: 0;
-}
+    font-size: 18px;
+    padding-left: 16px;
+  }
 
   .footer {
-
     margin-top: 220px;
-
     padding: 0 24px 38px;
-
   }
 
   .links {
-
     line-height: 2;
+  }
 
+}
+
+/* Mac */
+@media (min-width: 1024px) {
+
+  .footer {
+    margin-top: 320px;
   }
 
 }

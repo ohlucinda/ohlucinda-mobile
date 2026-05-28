@@ -1,0 +1,10 @@
+body {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 24px;
+
+  color: #111;
+  line-height: 2;
+
+  font-family: system-ui, sans-serif;
+}

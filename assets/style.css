@@ -108,28 +108,42 @@ img {
 }
 
 /* iPhone */
+/* iPhone */
 @media (max-width: 768px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   main {
+    width: 100%;
     padding: 40px 20px;
   }
 
   summary {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   details div {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 0;
+
+    word-break: break-word;
   }
 
   .footer {
-    margin-top: 220px;
-    padding: 0 24px 38px;
+    margin-top: 160px;
+    padding: 0 20px 38px;
   }
 
   .links {
     line-height: 2;
+    word-break: break-word;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 
 }

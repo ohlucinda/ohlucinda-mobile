@@ -108,7 +108,6 @@ img {
 }
 
 /* iPhone */
-/* iPhone */
 @media (max-width: 768px) {
 
   body {
@@ -128,9 +127,17 @@ img {
   font-size: 26px !important;
 
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 6px;
+  align-items: center;
+
+  gap: 4px;
+
+  width: 100%;
+  text-align: center;
+}
+
+details summary::before {
+  margin-right: 0;
 }
 
   details div {

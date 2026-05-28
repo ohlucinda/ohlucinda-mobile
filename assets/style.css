@@ -48,7 +48,10 @@ details div {
 }
 
 .footer {
-  margin-top: 120px;
+  clear: both;
+
+  margin-top: 320px;
+
   text-align: center;
   font-family: serif;
   color: black;

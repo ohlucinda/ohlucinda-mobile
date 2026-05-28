@@ -164,9 +164,17 @@ details summary::before {
   }
 
   .footer {
-    margin-top: 320px;
-    padding: 0 20px 38px;
-  }
+  clear: both;
+
+  margin-top: 700px;
+
+  text-align: center;
+  font-family: serif;
+  color: black;
+  width: 100%;
+  line-height: 1.6;
+  padding-bottom: 38px;
+}
 
   .links {
     line-height: 2;
@@ -176,15 +184,6 @@ details summary::before {
   img {
     width: 100%;
     height: auto;
-  }
-
-}
-
-/* Mac */
-@media (min-width: 1024px) {
-
-  .writes-index {
-    padding-bottom: 220px;
   }
 
 }

@@ -15,6 +15,26 @@
 
   {{ content }}
 
+  <div class="post-nav">
+
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}">
+        &lt; back
+      </a>
+    {% endif %}
+
+    <a href="{{ '/' | relative_url }}">
+      home
+    </a>
+
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}">
+        next &gt;
+      </a>
+    {% endif %}
+
+  </div>
+
 </main>
   
 <div class="footer">

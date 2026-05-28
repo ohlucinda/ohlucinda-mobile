@@ -160,21 +160,13 @@ img {
   }
 
   summary {
-    font-size: 20px !important;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 4px;
-
-    width: 100%;
-    text-align: center;
-  }
-
+  font-size: 20px !important;
+  text-align: center;
+　}
+  
   details summary::before {
     margin-right: 0;
-  }
+ }
 
   details div {
     font-size: 16px;

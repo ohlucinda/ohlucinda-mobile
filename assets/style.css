@@ -93,12 +93,9 @@ img {
   }
 
   details div {
-
-    font-size: 18px;
-
-    padding-left: 16px;
-
-  }
+  text-align: center;
+  padding-left: 0;
+}
 
   .footer {
 

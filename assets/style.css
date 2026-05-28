@@ -13,9 +13,12 @@ main {
   padding: 80px 24px;
 }
 
-main p {
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 80px 24px;
+
   line-height: 2.2;
-  margin: 0 0 40px 0;
 }
 
 a {

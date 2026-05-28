@@ -12,34 +12,32 @@
 <body>
 
 <main>
-
   {{ content }}
+</main>
 
-  {% if page.url != "/" %}
+{% if page.url != "/" %}
 
-  <div class="post-nav">
+<div class="post-nav">
 
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | relative_url }}">
-        &lt; back
-      </a>
-    {% endif %}
-
-    <a href="{{ '/' | relative_url }}">
-      home
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">
+      &lt; back
     </a>
-
-    {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}">
-        next &gt;
-      </a>
-    {% endif %}
-
-  </div>
-
   {% endif %}
 
-</main>
+  <a href="{{ '/' | relative_url }}">
+    home
+  </a>
+
+  {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}">
+      next &gt;
+    </a>
+  {% endif %}
+
+</div>
+
+{% endif %}
 
 <div class="footer">
 
@@ -65,3 +63,6 @@
   </div>
 
 </div>
+
+</body>
+</html>

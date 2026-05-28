@@ -5,10 +5,12 @@ body {
 
   color: #111;
   font-size: 17px;
-  line-height: 2;
 
   font-family: system-ui, sans-serif;
+}
 
+.writes-content {
+  line-height: 2.2;
   white-space: pre-wrap;
 }
 

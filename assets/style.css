@@ -124,11 +124,12 @@ img {
   }
 
   details div {
-    font-size: 16px;
-    padding-left: 0;
+  font-size: 16px;
+  padding-left: 0;
 
-    word-break: break-word;
-  }
+  text-align: center;
+  word-break: break-word;
+}
 
   .footer {
     margin-top: 320px;

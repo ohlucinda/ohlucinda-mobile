@@ -108,6 +108,7 @@ img {
 }
 
 /* iPhone */
+/* iPhone */
 @media (max-width: 768px) {
 
   body {
@@ -119,17 +120,21 @@ img {
     padding: 40px 20px;
   }
 
+  details {
+    text-align: center;
+  }
+
   summary {
     font-size: 22px;
   }
 
   details div {
-  font-size: 16px;
-  padding-left: 0;
+    font-size: 16px;
+    padding-left: 0;
 
-  text-align: center;
-  word-break: break-word;
-}
+    text-align: center;
+    word-break: break-word;
+  }
 
   .footer {
     margin-top: 320px;

@@ -108,7 +108,6 @@ img {
 }
 
 /* iPhone */
-/* iPhone */
 @media (max-width: 768px) {
 
   body {
@@ -132,7 +131,7 @@ img {
   }
 
   .footer {
-    margin-top: 160px;
+    margin-top: 320px;
     padding: 0 20px 38px;
   }
 

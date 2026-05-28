@@ -9,6 +9,6 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-p {
-  margin-bottom: 40px;
+.writes-content {
+  white-space: pre-wrap;
 }

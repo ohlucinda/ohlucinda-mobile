@@ -8,6 +8,8 @@ body {
   line-height: 2;
 
   font-family: system-ui, sans-serif;
+
+  white-space: pre-wrap;
 }
 
 a {
@@ -26,11 +28,11 @@ details {
 summary {
   cursor: pointer;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 details div {
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   padding-left: 28px;
   font-size: 20px;
 }

@@ -180,6 +180,10 @@ img {
     word-break: break-word;
   }
 
+  .footer {
+  margin-top: 320px;
+}
+  
   img {
     width: 100%;
     height: auto;

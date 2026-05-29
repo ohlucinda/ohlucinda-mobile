@@ -161,6 +161,21 @@ img {
   summary {
   font-size: 20px !important;
   text-align: center;
+
+  position: relative;
+
+ }
+
+ details summary::before {
+
+  content: "⌵";
+
+  position: absolute;
+
+  left: 50%;
+
+  transform: translateX(-80px);
+  
 }
 
   .touch {

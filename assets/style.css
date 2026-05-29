@@ -297,10 +297,10 @@ details[open] summary::before {
   gap: 80px 0;
 }
   
-details {
-  width: 30%;
-}
+.month-grid details {
+ width: 30%;
 
+}
   .site-header {
     transform: translateY(-30px) !important;;
   }

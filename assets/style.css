@@ -231,7 +231,7 @@ details[open] summary::before {
 @media (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
 
   .footer {
-    margin-top: 440px;
+    margin-top: 400px;
   }
 
   .post-footer {

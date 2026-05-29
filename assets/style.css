@@ -13,6 +13,18 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+main {
+
+  max-width: 680px;
+
+  margin: 0 auto;
+
+  padding: 80px 24px;
+
+  line-height: 2.4;
+
+}
+
 a {
   color: #111;
   text-decoration: none;

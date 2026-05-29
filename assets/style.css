@@ -284,6 +284,9 @@ details[open] summary::before {
 
   main {
   max-width: 1400px;
+
+ padding-left: 80px;
+ padding-right: 80px;   
 }
 
 .month-grid {

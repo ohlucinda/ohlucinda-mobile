@@ -16,7 +16,6 @@ body {
 a {
   color: #111;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 details {
@@ -127,10 +126,6 @@ img {
 
 /* iPhone */
 @media (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
 
   main {
     width: 100%;

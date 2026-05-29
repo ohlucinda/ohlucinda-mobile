@@ -8,6 +8,17 @@
   <title>{{ page.title }}</title>
 
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <script>
+
+if (window.innerWidth >= 769) {
+
+  throw new Error("Desktop blocked");
+
+}
+
+</script>
+  
 </head>
 
 <body>

@@ -8,6 +8,8 @@ layout: default
 
 {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 
+<div class="writes-top">
+
 {% for month in posts_by_month reversed %}
 
 <details>
@@ -24,3 +26,5 @@ layout: default
 </details>
 
 {% endfor %}
+
+</div>

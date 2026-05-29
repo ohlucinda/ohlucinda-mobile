@@ -251,7 +251,7 @@ details[open] summary::before {
 @media (min-width: 769px) and (max-width: 1366px) and (orientation: landscape) {
 
   .footer {
-    margin-top: 420px;
+    margin-top: 280px;
   }
 
   .post-footer {

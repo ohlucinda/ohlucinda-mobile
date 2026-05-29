@@ -78,7 +78,7 @@ details div {
 }
 
 .post-nav {
-  margin-top: 60px;
+  margin-top: 40px;
 
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@ details div {
 }
 
 .post-footer {
-  margin-top: 80px !important;
+  margin-top: 40px !important;
 }
 
 .touch {

@@ -283,13 +283,7 @@ details[open] summary::before {
 /* Mac */
 @media (min-width: 1024px) {
 
-  main {
-    max-width: 1400px;
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-
-  details {
+  .writes-top details {
     width: 30%;
 
     display: inline-block;
@@ -299,7 +293,7 @@ details[open] summary::before {
     margin-bottom: 80px;
   }
 
-  details:nth-of-type(3n) {
+  .writes-top details:nth-of-type(3n) {
     margin-right: 0;
   }
 

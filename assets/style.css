@@ -230,6 +230,10 @@ details[open] summary::before {
 /* iPad 縦 */
 @media (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
 
+  .site-header {
+    transform: translateY(-30px) !important;;
+  }
+  
   .footer {
     margin-top: 400px;
   }
@@ -248,6 +252,10 @@ details[open] summary::before {
 /* iPad 横 */
 @media (min-width: 769px) and (max-width: 1366px) and (orientation: landscape) {
 
+  .site-header {
+    transform: translateY(-30px) !important;;
+  }
+  
   .footer {
     margin-top: 80px;
   }
@@ -265,7 +273,7 @@ details[open] summary::before {
 @media (min-width: 1024px) {
 
   .site-header {
-    transform: translateY(-20px) !important;;
+    transform: translateY(-30px) !important;;
   }
 
   .footer {

@@ -168,8 +168,10 @@ img {
     word-break: break-word;
   }
 
-  .footer {
-  margin-top: 300px;
+  .post-footer {
+
+  margin-top: 320px !important;
+
 }
   
   img {

@@ -19,10 +19,6 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #888;
-}
-
 details {
   margin-bottom: 24px;
 }

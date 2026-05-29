@@ -159,15 +159,13 @@ img {
   }
 
   summary {
-
-  font-size: 20px !important;
-
-  text-align: center;
-
   position: relative;
 
-  left: -6px;
+  width: 100%;
+  max-width: 320px;
 
+  margin: 0 auto;
+  text-align: center;
 }
 
 details summary::before {
@@ -176,15 +174,15 @@ details summary::before {
 
   position: absolute;
 
-  left: 50%;
+  left: 0;
 
-  transform: translateX(-100px);
+  transform: translateX(20px);
 
   transition: transform 0.2s ease;
 }
 
 details[open] summary::before {
-  transform: translateX(-100px) rotate(180deg);
+  transform: translateX(20px) rotate(180deg);
 }
 
  details div {

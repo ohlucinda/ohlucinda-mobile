@@ -283,31 +283,18 @@ details[open] summary::before {
 /* Mac */
 @media (min-width: 1024px) {
 
-  .writes-top details {
-    width: 30%;
-
-    display: inline-block;
-    vertical-align: top;
-
-    margin-right: 4%;
-  }
-
-  .writes-top details:nth-of-type(3n) {
-    margin-right: 0;
-  }
-
   .site-header {
-    transform: translateY(-30px) !important;
+    transform: translateY(-30px) !important;;
   }
 
   .footer {
-    margin-top: 500px;
+    margin-top: 520px;
   }
 
   .post-footer {
-    margin-top: 60px !important;
-  }
+  margin-top: 60px !important;
 
+}
   .post-nav {
     font-size: 19px !important;
   }

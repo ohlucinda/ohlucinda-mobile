@@ -166,6 +166,9 @@ img {
 
   margin: 0 auto;
   text-align: center;
+
+  border-bottom: 1px solid #111;
+  padding-bottom: 14px;  
 }
 
 details summary::before {

@@ -283,50 +283,38 @@ details[open] summary::before {
 /* Mac */
 @media (min-width: 1024px) {
 
-  .site-header {
-    transform: translateY(-30px) !important;;
+  main {
+    max-width: 1400px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
-  summary {
-  position: relative;
+  details {
+    width: 30%;
 
-  width: 100%;
-  max-width: 420px;
+    display: inline-block;
+    vertical-align: top;
 
-  margin: 0 auto;
+    margin-right: 4%;
+    margin-bottom: 80px;
+  }
 
-  text-align: center;
+  details:nth-of-type(3n) {
+    margin-right: 0;
+  }
 
-  border-bottom: 1px solid #111;
+  .site-header {
+    transform: translateY(-30px) !important;
+  }
 
-  padding-bottom: 8px;
-}
-
-details summary::before {
-
-  position: absolute;
-
-  left: 0;
-
-  transform: translateX(20px);
-}
-
-  details[open] summary::before {
-  transform: translateX(20px) rotate(180deg);
-}
-
-  details div {
-  padding-left: 0;
-}
-  
   .footer {
     margin-top: 520px;
   }
 
   .post-footer {
-  margin-top: 60px !important;
+    margin-top: 60px !important;
+  }
 
-}
   .post-nav {
     font-size: 19px !important;
   }

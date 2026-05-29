@@ -229,6 +229,40 @@ details[open] summary::before {
 
 }
 
+/* iPad 縦 */
+@media (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
+
+  .footer {
+    margin-top: 520px;
+  }
+
+  .post-footer {
+    margin-top: 80px !important;
+  }
+
+  .post-nav {
+    font-size: 18px !important;
+  }
+
+}
+
+
+/* iPad 横 */
+@media (min-width: 769px) and (max-width: 1366px) and (orientation: landscape) {
+
+  .footer {
+    margin-top: 420px;
+  }
+
+  .post-footer {
+    margin-top: 80px !important;
+  }
+
+  .post-nav {
+    font-size: 18px !important;
+  }
+
+}
 /* Mac */
 @media (min-width: 1024px) {
 

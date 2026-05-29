@@ -290,7 +290,6 @@ details[open] summary::before {
     vertical-align: top;
 
     margin-right: 4%;
-    margin-bottom: 80px;
   }
 
   .writes-top details:nth-of-type(3n) {

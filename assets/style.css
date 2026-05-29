@@ -217,6 +217,10 @@ details[open] summary::before {
   margin-top: 30px !important;
 
 }
+
+  .post-nav {
+    font-size: 17px !important;
+  }
   
   img {
     width: 100%;

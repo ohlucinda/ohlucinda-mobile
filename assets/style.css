@@ -183,7 +183,7 @@ img {
 @media (min-width: 1024px) {
 
   .site-header {
-    transform: translateY(-16px);
+    transform: translateY(-20px);
   }
 
   .footer {

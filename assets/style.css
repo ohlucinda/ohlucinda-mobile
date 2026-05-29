@@ -311,13 +311,14 @@ details summary::before {
   transform: translateX(20px);
 }
 
-details[open] summary::before {
+  details[open] summary::before {
   transform: translateX(20px) rotate(180deg);
 }
 
-details div {
+  details div {
   padding-left: 0;
 }
+  
   .footer {
     margin-top: 520px;
   }

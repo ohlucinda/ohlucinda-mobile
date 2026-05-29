@@ -178,13 +178,13 @@ details summary::before {
 
   left: 50%;
 
-  transform: translateX(-110px);
+  transform: translateX(-100px);
 
   transition: transform 0.2s ease;
 }
 
 details[open] summary::before {
-  transform: translateX(-110px) rotate(180deg);
+  transform: translateX(-100px) rotate(180deg);
 }
 
  details div {

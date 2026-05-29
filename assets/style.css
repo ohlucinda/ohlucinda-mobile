@@ -163,10 +163,9 @@ img {
   text-align: center;
 
   position: relative;
+}
 
- }
-
- details summary::before {
+details summary::before {
 
   content: "⌵";
 
@@ -175,7 +174,12 @@ img {
   left: 50%;
 
   transform: translateX(-80px);
-  
+
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: translateX(-80px) rotate(180deg);
 }
 
   .touch {

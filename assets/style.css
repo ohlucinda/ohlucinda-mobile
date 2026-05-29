@@ -230,4 +230,10 @@ details[open] summary::before {
     margin-top: 520px;
   }
 
+  .post-footer {
+
+  margin-top: 40px !important;
+
+}
+
 }

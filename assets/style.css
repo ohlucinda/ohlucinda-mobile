@@ -206,9 +206,9 @@ details[open] summary::before {
     word-break: break-word;
   }
 
-  .post-footer {
+  .footer {
 
-  margin-top: 500px !important;
+  margin-top: 400px;
 
 }
   

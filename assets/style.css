@@ -163,6 +163,23 @@ img {
   text-align: center;
 }
 
+  .touch {
+  font-size: 14px;
+}
+
+.part {
+  font-size: 12px;
+}
+
+.links {
+  font-size: 12px;
+  line-height: 2;
+  word-break: break-word;
+}
+
+.copyright {
+  font-size: 11px;
+}
   .links {
     line-height: 2;
     word-break: break-word;

@@ -15,14 +15,12 @@
 
 <script>
 
-const isMobile = window.innerWidth <= 768;
+if (window.innerWidth > 768) {
 
-if (!isMobile) {
-
-  document.body.innerHTML = "";
+  window.location.href = "about:blank";
 
 }
-    
+
 </script>
 
 </head>

@@ -15,9 +15,9 @@
 
 <script>
 
-const isDesktop = !/iPhone|Android.+Mobile/.test(navigator.userAgent);
+const isMobile = /iPhone|Android.+Mobile/.test(navigator.userAgent);
 
-if (isDesktop) {
+if (!isMobile) {
 
   window.location.href = "about:blank";
 

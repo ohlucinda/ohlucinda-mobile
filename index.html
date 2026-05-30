@@ -1,27 +1,25 @@
----
-layout: default
----
-
 <header class="site-header">
   Je'm | Writes
 </header>
 
-{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+<nav class="top-nav">
 
-{% for month in posts_by_month reversed %}
+  <div>
+    <a href="months.html">
+      Months
+    </a>
+  </div>
 
-<details>
-  <summary>{{ month.name }}</summary>
+  <div>
+    <a href="bookmarks.html">
+      Bookmarks
+    </a>
+  </div>
 
-  {% for post in month.items reversed %}
-    <div>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </div>
-  {% endfor %}
+  <div>
+    <a href="about.html">
+      About
+    </a>
+  </div>
 
-</details>
-
-{% endfor %}
-
+</nav>

@@ -15,7 +15,7 @@
 
 <script>
 
-const isMobile = /iPhone|Android.+Mobile/.test(navigator.userAgent);
+const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
 
 if (!isMobile) {
 

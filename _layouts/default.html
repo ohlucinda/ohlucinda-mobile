@@ -15,14 +15,14 @@
 
 <script>
 
-const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+const isMobile = window.innerWidth <= 768;
 
 if (!isMobile) {
 
-  window.location.href = "about:blank";
+  document.body.innerHTML = "";
 
 }
-
+    
 </script>
 
 </head>

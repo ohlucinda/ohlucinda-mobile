@@ -1,0 +1,33 @@
+---
+layout: default
+title: Je'm | Writes
+permalink: /
+---
+
+<header class="site-header">
+
+  Je'm | Writes
+
+</header>
+
+<nav class="top-nav">
+
+  <div>
+    <a href="{{ '/months/' | relative_url }}">
+      Months
+    </a>
+  </div>
+
+  <div>
+    <a href="{{ '/bookmarks/' | relative_url }}">
+      Bookmarks
+    </a>
+  </div>
+
+  <div>
+    <a href="{{ '/about/' | relative_url }}">
+      About
+    </a>
+  </div>
+
+</nav>

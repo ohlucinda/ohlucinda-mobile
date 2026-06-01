@@ -136,6 +136,12 @@ details div {
 
 }
 
+.bookmark-links a {
+
+  font-family: "jimbo-std-expanded", sans-serif !important;
+
+}
+
 .bookmark-links div {
 
   font-size: 16px;

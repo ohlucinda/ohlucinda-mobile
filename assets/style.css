@@ -160,3 +160,14 @@ body:has(.bookmarks-column) .post-nav {
 details img {
   margin-bottom: 10px !important;
 }
+.bookmark-links div {
+
+  font-size: 16px;
+
+}
+
+.bookmark-group summary {
+
+  font-size: 18px;
+
+}

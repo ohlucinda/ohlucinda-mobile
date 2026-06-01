@@ -93,6 +93,7 @@ details[open] summary::before {
 }
 
 details div {
+  margin-top: 18px;
   margin-bottom: 18px;
   padding-left: 28px;
   font-size: 20px;

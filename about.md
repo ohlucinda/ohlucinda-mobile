@@ -18,7 +18,7 @@ I am a lyricist.
 The music is not created by me alone.  
 I entrust it to something other than myself — not a person, but AI.  
 Because it is not human, it requires a human touch to handle.  
-There is effort and struggle behind what you hear.  
+There is effort and struggle behind what you hear.   
 I do not use AI because it is easy.  
 I use it because it makes possible things I cannot do alone.  
 But before all of that, there is something I want to create. 

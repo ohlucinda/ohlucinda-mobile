@@ -190,7 +190,7 @@ img {
 }
 .bookmark-links a {
 
-  font-family: "jimbo-std-expanded", sans-serif;
+  font-family: "jimbo-std-expanded", sans-serif !important;;
 
 }
 

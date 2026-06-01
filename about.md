@@ -12,11 +12,7 @@ permalink: /about/
     </a>
   </div>
 
-  <header class="site-header" style="margin-bottom: 20px;">
-    About
-  </header>
-
-  <div style="padding: 0 20px; white-space: pre-wrap;">
+  <div style="padding: 0 20px;">
 <br><br>
 I am a lyricist.   
 The music is not created by me alone.  

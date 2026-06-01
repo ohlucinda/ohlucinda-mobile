@@ -102,14 +102,6 @@ details div {
 }
 
 .post-nav {
-  margin-top: 40px;
-
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-
-  font-size: 17px;
-  .post-nav {
 
   margin-top: 40px;
 
@@ -121,6 +113,7 @@ details div {
   font-size: 17px;
 
   font-family: "jimbo-std-expanded", sans-serif;
+
 }
 
 .post-nav a {

@@ -21,4 +21,3 @@ Using evolving vocal personas such as Jem and An, I create songs that move betwe
 My process is deeply hands-on: shaping structure, editing, mixing, mastering, visual direction, and release.   
 <br><br>
 For me, creativity is not about perfect control, but about discovering what appears through friction, drift, and unexpected resonance.  
-<br><br>

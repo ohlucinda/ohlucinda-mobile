@@ -40,11 +40,14 @@ details {
   font-size: 28px;
   text-align: center;
 
-  margin-bottom: 100px;
+  margin-bottom: 56px;
 
   letter-spacing: 0.02em;
 }
+.months-back {
 
+  margin-bottom: 56px;
+  
 .top-nav {
 
   display: flex;
@@ -75,7 +78,7 @@ summary {
 
   font-size: 24px;
   letter-spacing: -0.02em;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 summary::-webkit-details-marker {

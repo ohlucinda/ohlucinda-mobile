@@ -140,8 +140,9 @@ img {
   text-align: center;
 }
 
-/* タイトルを全部18pxに揃える */
-h1 {
+/* Aboutページの文章もMonthsと揃える */
+.about-content {
   font-size: 18px !important;
   text-align: center;
+  white-space: pre-wrap; /* これで改行を維持します */
 }

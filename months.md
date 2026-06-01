@@ -1,33 +1,53 @@
 ---
 layout: default
-title: Je'm | OHLUCINDA
-permalink: /
+title: Months
+permalink: /months/
 ---
+
+<div class="months-back">
+
+  <a href="{{ '/' | relative_url }}">
+
+    &lt; back
+
+  </a>
+
+</div>
 
 <header class="site-header">
 
-  Je'm | OHLUCINDA
+  Months
 
 </header>
 
-<nav class="top-nav">
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 
-  <div>
-    <a href="{{ '/months/' | relative_url }}">
-      Months
-    </a>
-  </div>
+<div class="writes-index">
 
-  <div>
-    <a href="{{ '/bookmarks/' | relative_url }}">
-      Bookmarks
-    </a>
-  </div>
+{% for group in posts_by_month reversed %}
 
-  <div>
-    <a href="{{ '/about/' | relative_url }}">
-      About
-    </a>
-  </div>
+<details>
 
-</nav>
+  <summary>{{ group.name }}</summary>
+
+  {% assign sorted_posts = group.items | reverse %}
+
+  {% for post in sorted_posts %}
+
+    <div>
+
+      <a href="{{ post.url | relative_url }}">
+
+        {{ post.title }}
+
+      </a>
+
+    </div>
+
+  {% endfor %}
+
+</details>
+
+{% endfor %}
+
+</div>

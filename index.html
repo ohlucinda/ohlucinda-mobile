@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Je'm | OHLUCINDA
-permalink: /
 ---
 
 <header class="site-header">
@@ -9,19 +7,23 @@ permalink: /
 </header>
 
 <nav class="top-nav">
+
   <div>
-    <a href="/months/">
+    <a href="{{ '/months/' | relative_url }}">
       Months
     </a>
   </div>
+
   <div>
-    <a href="/bookmarks/">
+    <a href="{{ '/bookmarks/' | relative_url }}">
       Bookmarks
     </a>
   </div>
+
   <div>
-    <a href="/about/">
+    <a href="{{ '/about/' | relative_url }}">
       About
     </a>
   </div>
+
 </nav>

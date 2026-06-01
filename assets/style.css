@@ -129,3 +129,15 @@ img {
   font-family: "jimbo-std-expanded", sans-serif;
 
 }
+/* --- ここから追加 --- */
+
+.months-page-details summary {
+  font-size: 18px !important;
+}
+
+.months-page-details div {
+  padding-left: 0 !important;
+  text-align: center;
+}
+
+/* --- ここまで追加 --- */

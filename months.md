@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Je'm | Writes
+title: Je'm | OHLUCINDA
 permalink: /
 ---
 
 <header class="site-header">
 
-  Je'm | Writes
+  Je'm | OHLUCINDA
 
 </header>
 

@@ -138,8 +138,9 @@ body:has(.bookmarks-column) .post-nav {
   margin-top: -8px;
 
 }
+
 .bookmark-main-link {
 
-  text-decoration: underline;
+  text-decoration: underline !important;
 
 }

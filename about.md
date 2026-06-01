@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<header class="site-header">
-  About
-</header>
-
 <div class="about-content">
   <p>
     I am a lyricist.<br>

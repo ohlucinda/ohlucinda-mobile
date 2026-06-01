@@ -140,14 +140,8 @@ img {
   text-align: center;
 }
 
-/* Aboutの中身を中央寄せにする */
-.about-content {
+/* タイトルを全部18pxに揃える */
+h1 {
+  font-size: 18px !important;
   text-align: center;
-  max-width: 600px; /* 必要に応じて調整 */
-  margin: 0 auto;
-}
-
-/* 段落間の余白も整える */
-.about-content p {
-  margin-bottom: 20px;
 }

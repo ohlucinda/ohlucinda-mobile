@@ -40,13 +40,13 @@ details {
   font-size: 28px;
   text-align: center;
 
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 
   letter-spacing: 0.02em;
 }
 .months-back {
 
-  margin-bottom: 56px;
+  margin-bottom: 40px;
   
 .top-nav {
 
@@ -189,12 +189,6 @@ img {
 .months-back a {
 
   font-family: "jimbo-std-expanded", sans-serif;
-
-}
-  
-.bookmark-links a {
-
-  font-family: "jimbo-std-expanded", sans-serif !important;
 
 }
   

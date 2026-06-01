@@ -146,6 +146,6 @@ body:has(.bookmarks-column) .post-nav {
 }
 .bookmark-image {
 
-  margin: 20px 0 28px 0 !important;
+  margin-top: 24px !important;
 
 }

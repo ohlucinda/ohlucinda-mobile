@@ -121,6 +121,24 @@ details div {
   text-decoration: none;
 }
 
+.bookmarks-column {
+
+  padding-left: 120px;
+
+}
+
+.bookmark-links {
+
+  padding-left: 56px;
+
+}
+
+.bookmark-links div {
+
+  font-size: 16px;
+
+}
+
 .footer {
   clear: both;
 

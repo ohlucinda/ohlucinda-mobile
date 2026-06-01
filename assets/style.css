@@ -1,152 +1,85 @@
 * {
-
   box-sizing: border-box;
-
 }
-
 body {
   margin: 0;
   padding: 0;
-
   color: #111;
   font-size: 18px;
   font-family: system-ui, sans-serif;
 }
-
 main {
-
   max-width: 680px;
-
   margin: 0 auto;
-
   padding: 80px 24px;
-
   line-height: 2.4;
-
 }
-
 a {
   color: #111;
   text-decoration: none;
 }
-
 details {
   margin-bottom: 24px;
 }
-
 .site-header {
   font-family: "jimbo-std-expanded", sans-serif;
-
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
-
-  margin-bottom: 40px;
-
+  margin-bottom: 100px;
   letter-spacing: 0.02em;
 }
-.months-back {
-
-  margin-bottom: 40px;
-  
 .top-nav {
-
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   gap: 36px;
-
 }
-
 .top-nav a {
-
   font-family: "jimbo-std-expanded", sans-serif;
-
   font-size: 22px;
-
   letter-spacing: 0.02em;
-
 }
-
 summary {
   list-style: none;
   cursor: pointer;
-
   font-family: "jimbo-std-expanded", sans-serif;
-
   font-size: 24px;
   letter-spacing: -0.02em;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
-
 summary::-webkit-details-marker {
   display: none;
 }
-
 details summary::before {
   content: "⌵";
   display: inline-block;
   margin-right: 10px;
-
   transition: transform 0.2s ease;
 }
-
 details[open] summary::before {
   transform: rotate(180deg);
 }
-
 details div {
   margin-top: 18px;
   margin-bottom: 18px;
   padding-left: 28px;
   font-size: 20px;
 }
-
 .post-nav {
-
   margin-top: 40px;
-
   display: flex;
   justify-content: center;
-
   gap: 40px;
-
   font-size: 17px;
-
   font-family: "jimbo-std-expanded", sans-serif;
-
 }
-
 .post-nav a {
   color: #111;
   text-decoration: none;
 }
-
-.bookmarks-column {
-
-  padding-left: 0;
-
-}
-
-.bookmark-links {
-
-  padding-left: 12px;
-
-}
-
-.bookmark-links div {
-
-  font-size: 16px;
-
-}
-
 .footer {
   clear: both;
-
-  margin-top: 40px;
-
+  margin-top: 70px;
   text-align: center;
   font-family: serif;
   color: black;
@@ -154,42 +87,33 @@ details div {
   line-height: 1.6;
   padding-bottom: 38px;
 }
-
 .post-footer {
-  margin-top: 20px !important;
+  margin-top: 40px !important;
 }
-
 .touch {
   font-size: 16px;
   margin-bottom: 6px;
 }
-
 .part {
   font-size: 14px;
   margin-bottom: 6px;
 }
-
 .links {
   font-size: 14px;
   margin-bottom: 6px;
 }
-
 .copyright {
   font-size: 13px;
 }
-
 /* 画像 */
 img {
   width: 100%;
   height: auto;
-
   display: block;
   margin: 60px 0;
 }
 .months-back a {
-
   font-family: "jimbo-std-expanded", sans-serif;
-
 }
   
 .post-title {

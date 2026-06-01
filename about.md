@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="about-content">
+<div class="about-container">
   <p>
     I am a lyricist.<br>
     The music is not created by me alone.<br>

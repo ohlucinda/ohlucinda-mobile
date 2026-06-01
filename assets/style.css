@@ -191,15 +191,18 @@ img {
   font-family: "jimbo-std-expanded", sans-serif;
 
 }
+  
 .bookmark-links a {
 
-  font-family: "jimbo-std-expanded", sans-serif !important;;
+  font-family: "jimbo-std-expanded", sans-serif !important;
 
 }
-
+  
 .post-title {
 
   font-family: "jimbo-std-expanded", sans-serif;
+
+  text-align: center;
 
 }
 

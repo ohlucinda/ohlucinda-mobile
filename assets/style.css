@@ -124,25 +124,8 @@ img {
 
 }
 
-.post-nav {
+.bookmarks-column a {
 
   font-family: "jimbo-std-expanded", sans-serif;
 
-}
-/* --- ここから追加 --- */
-
-.months-page-details summary {
-  font-size: 18px !important;
-}
-
-.months-page-details div {
-  padding-left: 0 !important;
-  text-align: center;
-}
-
-/* Aboutページの文章もMonthsと揃える */
-.about-content {
-  font-size: 18px !important;
-  text-align: center;
-  white-space: pre-wrap; /* これで改行を維持します */
 }

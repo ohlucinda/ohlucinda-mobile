@@ -132,3 +132,9 @@ img {
 .months-page-details summary {
   font-size: 18px !important;
 }
+
+body:has(.bookmarks-column) .post-nav {
+
+  margin-top: -8px;
+
+}

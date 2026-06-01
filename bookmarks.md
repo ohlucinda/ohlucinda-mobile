@@ -21,12 +21,12 @@ permalink: /bookmarks/
 <a class="bookmark-main-link" href="https://lyrics.ohlucinda.com" target="_blank">
   Lyrics</a>
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
-<br><br>
+<br>
 <a class="bookmark-main-link" href="https://gem.ohlucinda.com" target="_blank">
   Photo and Words
 </a>
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
-<br><br>
+<br>
 <a class="bookmark-main-link" href="https://unsplash.com/@ohlucinda" target="_blank">
   Images
 </a>

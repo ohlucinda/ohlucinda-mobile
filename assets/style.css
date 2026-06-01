@@ -144,3 +144,8 @@ body:has(.bookmarks-column) .post-nav {
   text-decoration: underline !important;
 
 }
+.bookmark-image {
+
+  margin: 20px 0 28px 0 !important;
+
+}

@@ -17,17 +17,17 @@ permalink: /about/
     I use it because it makes possible things I cannot do alone.<br>
     But before all of that, there is something I want to create.
   </p>
-<br><br><br>
+<br><br>
   <p>
     My music begins with words.<br>
     Rather than treating imperfection or unpredictability as errors, I embrace them as entrances into new forms of expression.<br>
     Using evolving vocal personas such as Jem and An, I create songs that move between psychedelic textures, fragile emotional landscapes, punk spirit, folk narratives, and dreamlike atmospheres.
   </p>
-<br><br><br>
+<br><br>
   <p>
     My process is deeply hands-on: shaping structure, editing, mixing, mastering, visual direction, and release.
   </p>
-<br><br><br>
+<br><br>
   <p>
     For me, creativity is not about perfect control, but about discovering what appears through friction, drift, and unexpected resonance.
   </p>

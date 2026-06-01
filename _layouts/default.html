@@ -56,7 +56,7 @@ and page.url != "/bookmarks/" %}
     </a>
   {% endif %}
 
- {% if page.url == "/about/" or page.url == "/bookmarks/" %}
+{% if page.url == "/about/" or page.url == "/bookmarks/" %}
 
   <a href="{{ '/' | relative_url }}">
     home
@@ -67,8 +67,6 @@ and page.url != "/bookmarks/" %}
   <a href="{{ '/months/' | relative_url }}">
     months
   </a>
-
-{% endif %}
 
 {% endif %}
 

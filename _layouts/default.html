@@ -29,36 +29,68 @@ if (window.innerWidth > 768) {
 
 <main>
 
-<header class="site-header">
+{% if page.url != "/" and page.url != "/months/" %}
 
-  OHLUCINDA
+<header class="post-title">
+
+  {{ page.title }}
 
 </header>
+  
+{% endif %}
 
-<nav class="top-nav">
-
-  <div>
-    <a href="months">
-      Months
-    </a>
-  </div>
-
-  <div>
-    <a href="bookmarks">
-      Bookmarks
-    </a>
-  </div>
-
-  <div>
-    <a href="about">
-      About
-    </a>
-  </div>
-
-</nav>
+  {{ content }}
 
 </main>
 
-</body>
+{% if page.url != "/" and page.url != "/months/" %}
 
+<div class="post-nav">
+
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">
+      &lt; back
+    </a>
+  {% endif %}
+
+  <a href="{{ '/' | relative_url }}">
+    home
+  </a>
+
+  {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}">
+      next &gt;
+    </a>
+  {% endif %}
+
+</div>
+
+{% endif %}
+
+{% unless page.url == '/months/' %}
+
+<div class="footer {% if page.url != '/' %}post-footer{% endif %}">
+
+  <div class="touch">
+    <a href="mailto:jemmusicja@duck.com">GET IN TOUCH</a>
+  </div>
+
+  <div class="part">
+    <em>Je'm is part of</em> OHLUCINDA
+  </div>
+
+  <div class="links">
+    <a href="https://lyrics.ohlucinda.com" target="_blank">Lyrics</a> |
+    <a href="https://gemdtp.ohlucinda.com" target="_blank">gem</a>
+  </div>
+
+  <div class="copyright">
+    © 2024 All rights reserved
+  </div>
+
+</div>
+
+{% endunless %}
+
+</body>
 </html>

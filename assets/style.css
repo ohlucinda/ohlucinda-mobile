@@ -71,6 +71,8 @@ summary {
   list-style: none;
   cursor: pointer;
 
+  font-family: "jimbo-std-expanded", sans-serif;
+
   font-size: 24px;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
@@ -157,4 +159,9 @@ img {
 
   display: block;
   margin: 60px 0;
+}
+.months-back a {
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
 }

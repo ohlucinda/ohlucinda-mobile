@@ -150,3 +150,7 @@ body:has(.bookmarks-column) .post-nav {
   margin: 20px 0 !important;
 
 }
+
+details img {
+  margin-bottom: 10px !important;
+}

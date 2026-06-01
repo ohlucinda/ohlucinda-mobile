@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<br><br>
+<br>
 I am a lyricist.   
 The music is not created by me alone.  
 I entrust it to something other than myself — not a person, but AI.  

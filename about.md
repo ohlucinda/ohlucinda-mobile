@@ -31,7 +31,7 @@ Jem is an AI vocal persona — a mask.
 
 Michiko writes the lyrics.
 
-Together, they become Je’m.  
+Together, we become Je’m.  
   </div>
 
 </div>

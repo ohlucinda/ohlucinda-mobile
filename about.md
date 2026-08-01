@@ -25,13 +25,13 @@ Using evolving vocal personas such as Jem and An, I create songs that move betwe
 
 My process is deeply hands-on, shaping structure, editing, mixing, mastering, visual direction, and release.
 
-Je’m is born where Michiko meets Jem.
+Je'm is born where Michiko meets Jem.
 
 Jem is an AI vocal persona — a mask.
 
 Michiko writes the lyrics.
 
-Together, we become Je’m.  
+Together, we become Je'm.
   </div>
 
 </div>
